@@ -1,3 +1,4 @@
+/* List of variables that are commonly used in the code */
 :root {
     --light-color: #bfccf6;
     --medium-color: #6883BA;
@@ -6,12 +7,14 @@
     
 }
 
+/* Sets the foundation margin and padding as 0. Organizes the structure of the page as a border-box */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Stretches the contents to fill the whole page */
 html,body
 {
     width: 100%;
@@ -19,8 +22,10 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    background-color: var(--light-color);
 }
 
+/*  */
 header.nav {
     position: fixed;
     width: 100%;
@@ -56,13 +61,21 @@ li {
     
 }
 
-body {
-    background-color: var(--light-color);
-}
-
 a {
     color: var(--white-text);
     text-decoration: none;
+}
+
+/* Positions the project description icons on the left */
+img.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Positions the project description icons on the right */
+img.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 .projects {
@@ -74,7 +87,6 @@ a {
     align-items: flex-start;
   }
   
-  /* Added rotation, box-shadow, border-radius */
   .card {
     border-style: solid;
     border-width: 5px;
@@ -90,19 +102,6 @@ a {
     vertical-align: bottom;
     border-radius: 0% 0% 45px 45px;
   }
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-    padding-top: 80px;
-    font-family: var(--font);
-    background-image: linear-gradient(var(--light-color), var(--medium-color),var(--medium-color), var(--medium-color));
-    color: var(--white-text);
-    position: bottom;
-    bottom: 0px;
-    width: 100%
-}
 
 div.right img{
     border-radius: 50%;
@@ -171,16 +170,6 @@ div.me {
     font-size: 36px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 section.card a {
     border-radius: 40px 40px 0px 0px;
     padding: 20px;
@@ -190,4 +179,17 @@ section.card a {
     font-size: 30px;
     background-color: var(--medium-color);
     color: var(--white-text);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-top: 80px;
+    font-family: var(--font);
+    background-image: linear-gradient(var(--light-color), var(--medium-color),var(--medium-color), var(--medium-color));
+    color: var(--white-text);
+    position: bottom;
+    bottom: 0px;
+    width: 100%
 }
