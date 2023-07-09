@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
+    <!-- CSS links, website title, and meta details -->
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="./assets/css/style.css">
         
     </head>
-
+    <!-- Navagation bar at the top of the screen -->
     <header class="nav">
         <h1 class="title">Alexandre's Portfolio</h1>
         <nav class="navbar">
@@ -31,7 +31,9 @@
         </nav>
     </header>
     <body>
+        <!-- id of home is used to link the user to the top of the page -->
         <div id="home">
+        <!-- About me div is broken into two sections. Left is for intro text and the right is for my profile picture -->
         <div id="about-me" class="me">
             <div class="left">
                 <h2 class="intro">
@@ -45,6 +47,7 @@
         </div>
         </div>
         <div id="work" class="projects">
+            <!-- each section is a card for a project. project headers link to their descriptions bewlow. -->
             <section class="card">
               <a href="#work">Watch Party</a>
               <img src="./assets/images/watch-party.png" alt="project 1" />
@@ -57,14 +60,11 @@
                 <a href="#project">Project 3</a>
               <img src="./assets/images/tbd.jpeg" alt="project 3"/>
             </section>
-            <!-- <section class="card">
-              <header>Project 4</header>
-              <img src="./assets/images/tbd.jpeg" alt="project 4" />
-            </section> -->
         </div>
         <main>
             <!-- id's for the main section are used to link the project cards to the description. 
                 They are offset by one section to adjust for the floating nav bar (looks weird, but works for now) -->
+                <!-- The entire section is made up of descriptions of the cards above. -->
             <div id="jabberwocky">
             <section class="project-description">
                 <img src="./assets/images/film-light.png" alt="film reel icon" class="float-left" />
@@ -100,7 +100,7 @@
             </section>
         </main>
     </body>
-
+    <!-- footer contains contact information such as email and github -->
     <footer id="contact-me">
         <ul>
             <li>
