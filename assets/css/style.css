@@ -25,7 +25,7 @@ html,body
     background-color: var(--light-color);
 }
 
-/*  */
+/* Create navbar dimensions, font, and colors */
 header.nav {
     position: fixed;
     width: 100%;
@@ -40,20 +40,24 @@ header.nav {
     border-bottom: dotted;
 }
 
+/* Set the size and padding for the title of the page */
 h1.title {
     width: 50%;
     font-size: 40px;
     padding-left: 10px;
 }
 
+/* Make the navbar 'flex', set the font size, and organize its contents */
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 50%;
     font-size: 20px;
     align-items: center;
 }
 
+/* FIX */
 li {
     display: inline-flex;
     padding-left: 10px;
@@ -61,47 +65,33 @@ li {
     
 }
 
+/* FIX */
 a {
     color: var(--white-text);
     text-decoration: none;
 }
 
-/* Positions the project description icons on the left */
-img.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/* Positions the project description icons on the right */
-img.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.projects {
-    flex: 4;
-    padding: 50px;
+div.me {
+    flex: 2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-  }
-  
-  .card {
-    border-style: solid;
-    border-width: 5px;
-    border-color: var(--medium-color);
-    border-radius: 50px;
-    flex: 0 0 350px;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
-  }
-  
-.card img {
-    width: 100%;
-    vertical-align: bottom;
-    border-radius: 0% 0% 45px 45px;
-  }
+    background-image: linear-gradient(var(--medium-color), var(--medium-color), var(--light-color));
+    padding-top: 100px;
+    
+}
+
+div.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 50%;
+    height: 300px;
+    border-bottom: hidden;
+
+}
 
 div.right img{
     border-radius: 50%;
@@ -117,17 +107,6 @@ div.left {
     border-bottom: hidden;
 }
 
-div.right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: right;
-    width: 50%;
-    height: 300px;
-    border-bottom: hidden;
-
-}
-
 h2.intro {
     display: flex;
     justify-content: center;
@@ -140,34 +119,24 @@ h2.intro {
     font-size: 25pt;
 }
 
-div.me {
-    flex: 2;
+/* CAN I COMBINE .projects with .card????? */
+.projects {
+    flex: 4;
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    background-image: linear-gradient(var(--medium-color), var(--medium-color), var(--light-color));
-    padding-top: 100px;
-    
-}
-
-.project-description {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: var(--font);
-    background-color: var(--medium-color);
-    color: var(--white-text);
-}
-
-.project-description img {
-    max-height: 200px;
-    border-radius: 50%;
-}
-
-.project-description h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  }
+  
+.card {
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--medium-color);
+  border-radius: 50px;
+  flex: 0 0 350px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
 }
 
 section.card a {
@@ -180,7 +149,45 @@ section.card a {
     background-color: var(--medium-color);
     color: var(--white-text);
 }
+  
+.card img {
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 0% 0% 45px 45px;
+  }
 
+section.project-description {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: var(--font);
+    background-color: var(--medium-color);
+    color: var(--white-text);
+}
+
+section.project-description img {
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+section.project-description h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Positions the project description icons on the left */
+img.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Positions the project description icons on the right */
+img.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Add color and organize the footer contents */
 footer {
     display: flex;
     justify-content: space-around;
