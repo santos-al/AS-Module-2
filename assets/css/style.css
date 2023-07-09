@@ -81,14 +81,14 @@ a {
     border-width: 5px;
     border-color: var(--medium-color);
     border-radius: 50px;
-    flex: 0 0 300px;
+    flex: 0 0 350px;
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
   }
   
   /* Added border-radius to match the card */
   .card header {
-    border-radius: 35px 35px 0px 0px;
+    border-radius: 40px 40px 0px 0px;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -100,7 +100,8 @@ a {
   
   .card img {
     width: 100%;
-    border-radius: 0% 0% 50px 50px;
+    vertical-align: bottom;
+    border-radius: 0% 0% 45px 45px;
   }
 
 footer {
@@ -117,7 +118,6 @@ footer {
 
 div.right img{
     border-radius: 50%;
-    float: right;
     width: auto;
     height: 300px;
     padding: 30px;
