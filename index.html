@@ -31,9 +31,12 @@
         </nav>
     </header>
     <body>
-        <div class="me">
+        <div id="about-me" class="me">
             <div class="left">
-                <h2 class="intro">Hello There! </h2>
+                <h2 class="intro">
+                    Hello There! Welcome to my virtual resume. 
+                    Here you will find all my projects. 
+                </h2>
             </div>
             <div class="right">
                 <img src="./assets/images/me.jpg" alt="My Picture">
@@ -41,15 +44,15 @@
         </div>
         <div id="work" class="projects">
             <section class="card">
-              <header>Watch Party</header>
+              <a href="#watch-party">Watch Party</a>
               <img src="./assets/images/watch-party.png" alt="project 1" />
             </section>
             <section class="card">
-              <header>JabberyWocky</header>
+              <a href="#jabberwocky">JabberWocky</a>
               <img src="./assets/images/jabberwocky.png" alt="project 2" />
             </section>
             <section class="card">
-              <header>Project 3</header>
+                <a href="#project">Project 3</a>
               <img src="./assets/images/tbd.jpeg" alt="project 3"/>
             </section>
             <!-- <section class="card">
@@ -57,14 +60,39 @@
               <img src="./assets/images/tbd.jpeg" alt="project 4" />
             </section> -->
         </div>
-        <div>
-            
-        </div>
+        <main>
+            <section id="watch-party" class="project-description">
+                <img src="./assets/images/film-light.png" alt="Notebook with search engine optimization concepts on cover on a cluttered wooden table." class="float-left" />
+                <h2>Watch Party</h2>
+                <p>
+                    DESCRIPTION
+                </p>
+            </section>
+            <section id="jabberwocky" class="project-description">
+                <img src="./assets/images/book-light.png" alt="Person checking cell phone while looking at a laptop showing a graph of increasing online reputation." class="float-right" />
+                <h2>JabberyWocky</h2>
+                <p>
+                    DESCRIPTION
+                </p>
+            </section>
+            <section id="project" class="project-description">
+                <img src="./assets/images/coming-soon.png" alt="Large solar panels in a green field of plants with a blue sky and light white clouds above it." class="float-left" />
+                <h2>Project 3</h2>
+                <p>
+                    DESCRIPTION
+                </p>
+            </section>
+        </main>
     </body>
 
     <footer id="contact-me">
-        <h3>Contact Info</h3>
         <ul>
+            <li>
+                <h3>Connect with me</h3>  
+            </li>
+            <li>
+                <a href="#">santosal2018@gmail.com</a>
+            </li>
             <li>
                 <a href="https://github.com/santos-al">My Github</a>
             </li>
