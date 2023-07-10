@@ -163,6 +163,7 @@ section.project-description {
     font-family: var(--font);
     background-color: var(--medium-color);
     color: var(--white-text);
+    box-shadow: 0px 8px 15px #aaaaaa;
 }
 
 section.project-description img {
