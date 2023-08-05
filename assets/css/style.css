@@ -57,7 +57,7 @@ nav {
     align-items: center;
 }
 
-/* FIX */
+
 li {
     display: inline-flex;
     padding-left: 10px;
@@ -65,12 +65,13 @@ li {
     
 }
 
-/* FIX */
+
 a {
     color: var(--white-text);
     text-decoration: none;
 }
 
+/* Formats the text to the left of the profile picture */
 div.me {
     flex: 2;
     display: flex;
@@ -82,6 +83,7 @@ div.me {
     
 }
 
+/* formats my picture by centering it and making it round */
 div.right {
     display: flex;
     justify-content: center;
@@ -93,6 +95,7 @@ div.right {
 
 }
 
+/* Sets the size of the image */
 div.right img{
     border-radius: 50%;
     width: auto;
@@ -100,6 +103,7 @@ div.right img{
     padding: 30px;
 }
 
+/* sets the size of the box where the intro messgae is */
 div.left {
     float: left;
     width: 50%;
@@ -119,7 +123,7 @@ h2.intro {
     font-size: 25pt;
 }
 
-/* CAN I COMBINE .projects with .card????? */
+
 .projects {
     flex: 4;
     padding: 50px;
@@ -129,6 +133,7 @@ h2.intro {
     align-items: flex-start;
   }
   
+/* formats the project cards */
 .card {
   border-style: solid;
   border-width: 5px;
@@ -139,6 +144,7 @@ h2.intro {
   margin: 20px;
 }
 
+/* Also fromats the porject cards */
 section.card a {
     border-radius: 40px 40px 0px 0px;
     padding: 20px;
@@ -150,6 +156,7 @@ section.card a {
     color: var(--white-text);
 }
   
+/* makes the project images round */
 .card img {
     width: 100%;
     vertical-align: bottom;

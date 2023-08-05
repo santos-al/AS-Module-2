@@ -1,24 +1,46 @@
-# AS-Module-2
+# Personal Portfolio
+  ## Description
+  This porject is a web application built using html and css to display my projects throughout this course.
 
-## Personal Portfolio
+  ## Table of Contents
 
-## USER STORY
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+  * [Installation](#installation)
 
-## ACCEPTANCE CRITERIA
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+  * [Usage](#usage)
+
+  * [License](#license)
+
+  * [Contributing](#contributing)
+
+  * [Tests](#tests)
+
+  * [Questions](#questions)
+
+  ## Installation
+  ```
+  There is nothing to install this application is run on your browser
+  ```
+
+  ## Usage
+  The run this repo all you need to do is click on the link at the bottom of this readMe
+
+  ## License
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
+
+  (https://opensource.org/licenses/MIT)
+
+  ## Contributing
+  This website is complete
+
+  ## Tests
+  ```
+  There are no tests for this application
+  ```
+
+  ## Questions
+
+  If you have any questions about this project, please send me an email santosal2018@gmail.com. 
+  You can find more of my work at [santos-al](https://github.com/santos-al/).
+
+  [Website](https://santos-al.github.io/AS-Module-2/)
 
